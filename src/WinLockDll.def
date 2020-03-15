@@ -1,0 +1,19 @@
+; WinLockDll.def : Declares the module parameters.
+
+LIBRARY      "WinLockDll.dll"
+DESCRIPTION  'WinLockDLL Windows Dynamic Link Library'
+
+EXPORTS
+	; Explicit exports can go here
+	AltTab1_Enable_Disable
+	AltTab2_Enable_Disable
+	Clock_Show_Hide
+	CtrlAltDel_Enable_Disable
+	Desktop_Show_Hide
+	Keys_Enable_Disable
+	Process_Desktop
+	StartButton_Show_Hide
+	TaskManager_Enable_Disable
+	TaskSwitching_Enable_Disable
+	Taskbar_Show_Hide
+	Thread_Desktop
